@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Maison Neue-Bold"; 
+    src: url("../Font/MaisonNeue-Bold.otf")
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 10px;
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background-color: #ffd300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ header h2{
+    margin-top: 2%;
+}
+
+main{
+    background-color: black;
+    width:100%;
+    height: 800px;
+    color: white;
+}
+.container1, .conteiner2{
+    width: 94%;
+    margin: 0 auto;
+}
+.conteiner2{
+    display: flex;
+}
+.col1{
+    width: 50%;
+}
+.col2{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: "Maison Neue-Bold";
+}
+h2{
+    font-size: 39px;
+    font-family: "Maison Neue-Demi";
+}
+
+h1 main {
+    font-size: 166px;
+}
+footer{
+    background: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 40px;
+        object-fit: cover;
+}
